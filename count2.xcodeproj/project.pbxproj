@@ -13,6 +13,14 @@
 		891F8CF01C60F4A900D3EEE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891F8CEF1C60F4A900D3EEE6 /* Images.xcassets */; };
 		891F8CF31C60F4A900D3EEE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891F8CF11C60F4A900D3EEE6 /* LaunchScreen.xib */; };
 		891F8CFF1C60F4A900D3EEE6 /* count2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F8CFE1C60F4A900D3EEE6 /* count2Tests.swift */; };
+		891F8D091C60F7C000D3EEE6 /* beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D081C60F7C000D3EEE6 /* beans.jpg */; };
+		891F8D0B1C6307A100D3EEE6 /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D0A1C6307A100D3EEE6 /* button.mp3 */; };
+		891F8D0D1C630B7800D3EEE6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891F8D0C1C630B7800D3EEE6 /* AudioToolbox.framework */; };
+		891F8D0F1C6315BF00D3EEE6 /* bean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D0E1C6315BF00D3EEE6 /* bean.jpg */; };
+		891F8D131C6320C900D3EEE6 /* buttond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D101C6320C900D3EEE6 /* buttond.mp3 */; };
+		891F8D141C6320C900D3EEE6 /* buttonm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D111C6320C900D3EEE6 /* buttonm.mp3 */; };
+		891F8D151C6320C900D3EEE6 /* buttonp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D121C6320C900D3EEE6 /* buttonp.mp3 */; };
+		891F8D171C6320F000D3EEE6 /* buttonc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891F8D161C6320F000D3EEE6 /* buttonc.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		891F8CF81C60F4A900D3EEE6 /* count2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		891F8CFD1C60F4A900D3EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891F8CFE1C60F4A900D3EEE6 /* count2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count2Tests.swift; sourceTree = "<group>"; };
+		891F8D081C60F7C000D3EEE6 /* beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beans.jpg; sourceTree = "<group>"; };
+		891F8D0A1C6307A100D3EEE6 /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
+		891F8D0C1C630B7800D3EEE6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		891F8D0E1C6315BF00D3EEE6 /* bean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bean.jpg; sourceTree = "<group>"; };
+		891F8D101C6320C900D3EEE6 /* buttond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttond.mp3; sourceTree = "<group>"; };
+		891F8D111C6320C900D3EEE6 /* buttonm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonm.mp3; sourceTree = "<group>"; };
+		891F8D121C6320C900D3EEE6 /* buttonp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonp.mp3; sourceTree = "<group>"; };
+		891F8D161C6320F000D3EEE6 /* buttonc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonc.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891F8D0D1C630B7800D3EEE6 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 		891F8CDA1C60F4A900D3EEE6 = {
 			isa = PBXGroup;
 			children = (
+				891F8D0C1C630B7800D3EEE6 /* AudioToolbox.framework */,
 				891F8CE51C60F4A900D3EEE6 /* count2 */,
 				891F8CFB1C60F4A900D3EEE6 /* count2Tests */,
 				891F8CE41C60F4A900D3EEE6 /* Products */,
@@ -79,7 +97,14 @@
 			children = (
 				891F8CE81C60F4A900D3EEE6 /* AppDelegate.swift */,
 				891F8CEA1C60F4A900D3EEE6 /* ViewController.swift */,
+				891F8D0A1C6307A100D3EEE6 /* button.mp3 */,
+				891F8D101C6320C900D3EEE6 /* buttond.mp3 */,
+				891F8D161C6320F000D3EEE6 /* buttonc.mp3 */,
+				891F8D111C6320C900D3EEE6 /* buttonm.mp3 */,
+				891F8D121C6320C900D3EEE6 /* buttonp.mp3 */,
 				891F8CEC1C60F4A900D3EEE6 /* Main.storyboard */,
+				891F8D081C60F7C000D3EEE6 /* beans.jpg */,
+				891F8D0E1C6315BF00D3EEE6 /* bean.jpg */,
 				891F8CEF1C60F4A900D3EEE6 /* Images.xcassets */,
 				891F8CF11C60F4A900D3EEE6 /* LaunchScreen.xib */,
 				891F8CE61C60F4A900D3EEE6 /* Supporting Files */,
@@ -193,7 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				891F8CEE1C60F4A900D3EEE6 /* Main.storyboard in Resources */,
+				891F8D0F1C6315BF00D3EEE6 /* bean.jpg in Resources */,
+				891F8D141C6320C900D3EEE6 /* buttonm.mp3 in Resources */,
+				891F8D0B1C6307A100D3EEE6 /* button.mp3 in Resources */,
+				891F8D091C60F7C000D3EEE6 /* beans.jpg in Resources */,
+				891F8D151C6320C900D3EEE6 /* buttonp.mp3 in Resources */,
 				891F8CF31C60F4A900D3EEE6 /* LaunchScreen.xib in Resources */,
+				891F8D131C6320C900D3EEE6 /* buttond.mp3 in Resources */,
+				891F8D171C6320F000D3EEE6 /* buttonc.mp3 in Resources */,
 				891F8CF01C60F4A900D3EEE6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
